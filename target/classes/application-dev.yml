@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    name: dev
+    url: jdbc:mysql://192.168.130.64:3306/k2alpha-sys?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+logging:
+  config: classpath:log4j2.xml

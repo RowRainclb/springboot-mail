@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.k2data.k2app:k2alpha-enablement:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/k2data/k2app/k2alpha-enablement/1.0-SNAPSHOT/k2alpha-enablement-1.0-20170327.022622-69.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/k2data/k2app/k2alpha-enablement/1.0-SNAPSHOT/k2alpha-enablement-1.0-20170327.022622-69-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/k2data/k2app/k2alpha-enablement/1.0-SNAPSHOT/k2alpha-enablement-1.0-20170327.022622-69-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

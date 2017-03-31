@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-starter-aop-1.4.2.RELEASE.jar k2app-enablement
+ -1.0-20170228.121945-215.jar spring-webmvc-4.3.4.RELEASE.jar gson-2.7
+ .jar spring-boot-starter-data-redis-1.4.2.RELEASE.jar spring-tx-4.3.4
+ .RELEASE.jar mapstruct-1.0.0.Final.jar jul-to-slf4j-1.7.21.jar okhttp
+ -3.5.0.jar jboss-logging-3.3.0.Final.jar spring-test-4.3.4.RELEASE.ja
+ r tomcat-juli-8.5.6.jar jackson-databind-2.8.4.jar spring-boot-starte
+ r-jdbc-1.4.2.RELEASE.jar spring-context-support-4.3.4.RELEASE.jar asp
+ ectjweaver-1.8.9.jar validation-api-1.1.0.Final.jar hamcrest-library-
+ 1.3.jar jcl-over-slf4j-1.7.21.jar spring-context-4.3.4.RELEASE.jar sp
+ ring-plugin-core-1.2.0.RELEASE.jar spring-data-commons-1.12.5.RELEASE
+ .jar spring-boot-starter-tomcat-1.4.2.RELEASE.jar json-20140107.jar s
+ pringfox-swagger-ui-2.6.1.jar spring-boot-devtools-1.4.2.RELEASE.jar 
+ slf4j-api-1.7.21.jar springfox-core-2.6.1.jar mybatis-spring-boot-aut
+ oconfigure-1.1.1.jar spring-boot-starter-test-1.4.2.RELEASE.jar class
+ mate-1.3.3.jar springfox-swagger-common-2.6.1.jar mybatis-spring-boot
+ -starter-1.1.1.jar log4j-slf4j-impl-2.6.2.jar spring-data-redis-1.7.5
+ .RELEASE.jar mockito-core-1.10.19.jar tomcat-embed-websocket-8.5.6.ja
+ r junit-4.12.jar spring-data-keyvalue-1.1.5.RELEASE.jar swagger-annot
+ ations-1.5.10.jar spring-boot-starter-actuator-1.4.2.RELEASE.jar page
+ helper-spring-boot-starter-1.1.0.jar spring-beans-4.3.4.RELEASE.jar t
+ omcat-embed-el-8.5.6.jar jsqlparser-0.9.5.jar commons-pool2-2.4.2.jar
+  fastjson-1.2.14.jar okio-1.11.0.jar objenesis-2.1.jar lombok-1.16.10
+ .jar spring-plugin-metadata-1.2.0.RELEASE.jar spring-boot-starter-1.4
+ .2.RELEASE.jar hamcrest-core-1.3.jar commons-logging-1.2.jar springfo
+ x-spring-web-2.6.1.jar disruptor-3.2.0.jar tomcat-embed-core-8.5.6.ja
+ r spring-boot-autoconfigure-1.4.2.RELEASE.jar tomcat-jdbc-8.5.6.jar s
+ pring-boot-1.4.2.RELEASE.jar spring-boot-test-1.4.2.RELEASE.jar sprin
+ gfox-schema-2.6.1.jar jsonassert-1.3.0.jar json-path-2.2.0.jar spring
+ fox-swagger2-2.6.1.jar spring-core-4.3.4.RELEASE.jar jedis-2.8.2.jar 
+ spring-aop-4.3.4.RELEASE.jar springfox-spi-2.6.1.jar hibernate-valida
+ tor-5.2.4.Final.jar json-smart-2.2.1.jar mapper-3.3.9.jar jackson-cor
+ e-2.8.4.jar mapper-spring-boot-autoconfigure-1.0.0.jar log4j-core-2.6
+ .2.jar spring-boot-actuator-1.4.2.RELEASE.jar mapper-spring-boot-star
+ ter-1.1.0.jar snakeyaml-1.17.jar spring-boot-test-autoconfigure-1.4.2
+ .RELEASE.jar mybatis-spring-1.3.0.jar pagehelper-spring-boot-autoconf
+ igure-1.1.0.jar assertj-core-2.5.0.jar persistence-api-1.0.jar log4j-
+ api-2.6.2.jar spring-boot-starter-log4j2-1.4.2.RELEASE.jar accessors-
+ smart-1.1.jar mybatis-3.4.0.jar mysql-connector-java-5.1.40.jar swagg
+ er-models-1.5.10.jar spring-jdbc-4.3.4.RELEASE.jar guava-18.0.jar asm
+ -5.0.3.jar spring-expression-4.3.4.RELEASE.jar kmxrest-1.0-20170307.0
+ 32142-3.jar jackson-annotations-2.8.4.jar spring-oxm-4.3.4.RELEASE.ja
+ r spring-web-4.3.4.RELEASE.jar spring-boot-starter-web-1.4.2.RELEASE.
+ jar pagehelper-5.0.0.jar
+Main-Class: com.k2data.k2app.Application
+
