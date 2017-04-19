@@ -1,2 +1,10 @@
 logging:
   config: classpath:log4j2.xml
+
+spring:
+  application:
+        name: k2alpha-mail-dev
+
+  cloud:
+    config:
+      profile: dev

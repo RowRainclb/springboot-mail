@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: k2alpha-config
+      name: application
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://k2alpha.eureka:8761/eureka
+  instance:
+      preferIpAddress: true

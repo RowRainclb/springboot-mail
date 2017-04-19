@@ -25,7 +25,6 @@ import java.util.Map;
 */ 
 @RunWith(SpringRunner.class)
 @Rollback
-@Transactional
 @SpringBootTest
 public class MailServiceTest { 
 

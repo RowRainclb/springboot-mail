@@ -12,6 +12,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.velocity.VelocityEngineUtils;
+import org.springframework.web.client.RestTemplate;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -30,6 +31,9 @@ public class MailService {
 	@Autowired
 	VelocityEngine velocityEngine;
 
+	@Autowired
+	private RestTemplate restTemplate;
+
 //	@Autowired
 	private JavaMailSenderImpl sender;
 
@@ -47,6 +51,8 @@ public class MailService {
 		javaMailProperties.put("mail.smtp.starttls.enable", true);
 		javaMailProperties.put("mail.smtp.timeout", 5000);
 		sender.setJavaMailProperties(javaMailProperties);
+
+//		restTemplate.delete("http://K2ALPHA-DEVICE/v1/dd");
 	}
 
 
