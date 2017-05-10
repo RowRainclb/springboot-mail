@@ -4,7 +4,3 @@ logging:
 spring:
   application:
         name: k2alpha-mail-dev
-
-  cloud:
-    config:
-      profile: dev

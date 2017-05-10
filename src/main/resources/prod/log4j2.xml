@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Properties>
-        <property name="PROJECT_NAME">k2alpha-sample</property>
+        <property name="PROJECT_NAME">k2alpha-mail</property>
         <property name="LOG_PATH">/var/log/${PROJECT_NAME}/</property>
         <property name="LOG_FILE">k2alpha</property>
     </Properties>

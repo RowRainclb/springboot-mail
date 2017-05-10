@@ -1,7 +1,6 @@
 package com.k2data.k2app;
 
 import lombok.extern.log4j.Log4j2;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -17,9 +16,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableTransactionManagement
 @EnableDiscoveryClient
 public class Application {
-
-    @Value("${test}")
-    private String test;
 
     @Bean
     @LoadBalanced

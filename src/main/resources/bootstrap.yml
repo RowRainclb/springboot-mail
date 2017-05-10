@@ -5,6 +5,7 @@ spring:
         enabled: true
         service-id: k2alpha-config
       name: application
+      profile: dev
 
 eureka:
   client:
@@ -12,3 +13,4 @@ eureka:
       defaultZone: http://k2alpha.eureka:8761/eureka
   instance:
       preferIpAddress: true
+      instance-id: ${spring.cloud.client.ipAddress}:${server.port}

@@ -1,17 +1,16 @@
-package com.k2data.k2app.service; 
+package com.k2data.k2app.service;
 
 import com.k2data.k2app.validate.MailSimpleK2;
 import com.k2data.k2app.validate.MailTemplateK2;
 import org.apache.velocity.app.VelocityEngine;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.Before; 
-import org.junit.After; 
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.Map;

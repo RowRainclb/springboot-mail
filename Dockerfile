@@ -11,7 +11,7 @@ COPY ./target/$K2_JAR_NAME $K2_WORK_DIR/$K2_JAR_NAME
 
 WORKDIR $K2_WORK_DIR
 
-ENTRYPOINT ["java", "-Dspring.profiles.active=prod", "-jar", "k2alpha-mail.jar", "com.k2data.k2app.Application"]
+ENTRYPOINT java -Dspring.profiles.active=prod -Dspring.cloud.config.profile=prod $JAVA_OPTS -jar k2alpha-mail.jar com.k2data.k2app.Application
 
 EXPOSE 8082
 
